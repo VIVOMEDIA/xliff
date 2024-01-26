@@ -1,0 +1,16 @@
+{
+  "description": "Simple Xliff-File reader and writer",
+  "type": "library",
+  "name": "vivomedia/xliff",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-xmlreader": "*",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VIVOMEDIA\\XliffParser\\": "Classes/"
+    }
+  }
+}
