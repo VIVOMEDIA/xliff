@@ -2,12 +2,12 @@
 [![Total Downloads](https://poser.pugx.org/vivomedia/xliff/downloads)](https://packagist.org/packages/vivomedia/xliff)
 [![License](https://poser.pugx.org/vivomedia/xliff/license)](https://packagist.org/packages/vivomedia/xliff)
 
-# VIVOMEDIA XliffParser
+# VIVOMEDIA Xliff Reader and Writer
 Simple Xliff Reader and Writer. Currently only Xliff Version 1.2.
 
 ## Install
 ```
-composer require vivomedia/xliff-parser
+composer require vivomedia/xliff
 ```
 
 
