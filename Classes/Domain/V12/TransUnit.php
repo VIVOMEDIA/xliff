@@ -2,7 +2,7 @@
 
 namespace VIVOMEDIA\XliffParser\Domain\V12;
 
-class TransUnit
+class TransUnit extends BodyItem
 {
     public function __construct(
         protected Source $source,
@@ -22,10 +22,13 @@ class TransUnit
         return $this->target;
     }
 
+    public function setTarget(Target $target): void
+    {
+        $this->target = $target;
+    }
+
     public function getAttributes(): Attributes
     {
         return $this->attributes;
     }
-
-
 }

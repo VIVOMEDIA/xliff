@@ -2,7 +2,7 @@
 
 namespace VIVOMEDIA\XliffParser\Domain\V12;
 
-class Group
+class Group extends BodyItem
 {
     public function __construct(
         /** @var array<TransUnit> $transUnits */

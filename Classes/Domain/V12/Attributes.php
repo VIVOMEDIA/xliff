@@ -19,4 +19,9 @@ class Attributes
     {
         return $this->attributes[$namespace][$key] ?? null;
     }
+
+    public function set($key, $value, $namespace = null): void
+    {
+        $this->attributes[$namespace][$key] = $value;
+    }
 }
