@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/vivomedia/xliff/v/stable)](https://packagist.org/packages/vivomedia/xliff)
+[![Total Downloads](https://poser.pugx.org/vivomedia/xliff/downloads)](https://packagist.org/packages/vivomedia/xliff)
+[![License](https://poser.pugx.org/vivomedia/xliff/license)](https://packagist.org/packages/vivomedia/xliff)
+
 # VIVOMEDIA XliffParser
 Simple Xliff Reader and Writer. Currently only Xliff Version 1.2.
 
