@@ -17,6 +17,11 @@ class TransUnit extends BodyItem
         return $this->source;
     }
 
+    public function setSource(Source $source): void
+    {
+        $this->source = $source;
+    }
+
     public function getTarget(): ?Target
     {
         return $this->target;
